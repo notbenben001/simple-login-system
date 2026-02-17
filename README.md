@@ -1,15 +1,18 @@
-# simple-login-system
+# Simple Login System
 
 **Python project: simple username and password login system.**
 
 ---
 
-**This project is a terminal program that lets users sign in**  
+This is a terminal program that lets users:
 
-**Register with a username and password**  
+- **Register** with a username and password  
+- **Log in** with existing credentials  
+- Handle **invalid logins** and **duplicate registrations**  
 
-**Log in with existing credentials**  
+It demonstrates **basic Python programming concepts**, including:
 
-Handle invalid logins and duplicate registrations  
-
-It demonstrates **basic Python programming concepts**, including loops, conditionals, dictionaries, and user input handling.
+- Loops  
+- Conditionals  
+- Dictionaries  
+- User input handling
