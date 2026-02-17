@@ -20,7 +20,6 @@ Accounts = {'Ben': '1'}
 
 # Function to log in a user
 def Login(username, password):
-    global Accounts
     if username in Accounts and Accounts[username] == password:
         print('\n\nLogin successful')
     else:
@@ -28,7 +27,6 @@ def Login(username, password):
 
 # Function to register a new user
 def Register(username, password):
-    global Accounts
     Accounts[username] = password
     if username in Accounts and Accounts[username] == password:
         print('Account Created!')
